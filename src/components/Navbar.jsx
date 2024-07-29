@@ -1,10 +1,17 @@
+import logo from "../assets/vector/logo.svg";
+import hamburger from "../assets/vector/hamburger.svg";
+
 const Navbar = () => {
     return (
-        <nav className="shadow-borderColor-100/25 fixed left-0 top-0 z-10 w-full border-b border-borderColor/10 bg-customizedBg/50 py-4 shadow-lg backdrop-blur-xl">
+        <nav className="shadow-borderColor-100/25 fixed left-0 top-0 z-10 w-full border-b border-borderColor/10 bg-customizedBg/50 p-4 shadow-lg backdrop-blur-xl sm:px-0 sm:py-4">
             <div className="max-container mx-auto flex justify-between font-firaCode text-slate-100">
                 {/* start - logo */}
-                <div className="inline-block py-1 align-middle">
-                    <a href="#" className="text-2xl font-bold">
+                <div className="flex py-1 align-middle">
+                    <img src={logo} alt="logo" className="mr-2 h-8 w-8" />
+                    <a
+                        href="#"
+                        className="hidden text-lg font-bold text-greenGradient sm:text-2xl lg:block"
+                    >
                         shinnthant.dev
                     </a>
                 </div>
@@ -21,11 +28,12 @@ const Navbar = () => {
                 </div>
 
                 {/* end -> button */}
-                <div>
-                    <button className="hidden rounded-lg bg-customizedBtnBg px-3.5 py-2.5 text-sm text-slate-950">
-                        download-cv
-                    </button>
+                <div className="flex items-center justify-center sm:hidden">
+                    <img src={hamburger} alt="Hamburger" className="w-6" />
                 </div>
+                <button className="hidden h-10 rounded-lg bg-customizedBtnBg px-3.5 py-2.5 text-sm text-slate-950 lg:block">
+                    download-cv
+                </button>
             </div>
         </nav>
     );
