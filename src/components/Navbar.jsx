@@ -37,7 +37,7 @@ const Navbar = () => {
                 </div>
                 {/* end -> button */}
                 <div className="flex items-center justify-center sm:hidden">
-                    <button onClick={toggleDropdown} className="w-4">
+                    <button onClick={toggleDropdown} className="w-6">
                         {/* magic code 2 */}
                         <img
                             src={isDropdownOpen ? cross : hamburger}
