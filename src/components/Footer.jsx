@@ -1,8 +1,8 @@
-import envelop from "../assets/envelop.svg";
-import mobile from "../assets/mobile.svg";
-import linkedIn from "../assets/linkedIn.svg";
-import gitHub from "../assets/gitHub.svg";
-import twitter from "../assets/twitter.svg";
+import envelop from "../assets/vector/envelop.svg";
+import mobile from "../assets/vector/mobile.svg";
+import linkedIn from "../assets/vector/linkedIn.svg";
+import gitHub from "../assets/vector/gitHub.svg";
+import twitter from "../assets/vector/twitter.svg";
 
 const Footer = () => {
     return (

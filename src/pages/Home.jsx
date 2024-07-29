@@ -1,7 +1,7 @@
-import Header from "../components/sections/Header.jsx";
-import AboutMe from "../components/sections/AboutMe.jsx";
-import Projects from "../components/sections/Projects.jsx";
-import ContactMe from "../components/sections/ContactMe.jsx";
+import Header from "../sections/Header.jsx";
+import AboutMe from "../sections/AboutMe.jsx";
+import Projects from "../sections/Projects.jsx";
+import ContactMe from "../sections/ContactMe.jsx";
 
 const Home = () => {
     return (

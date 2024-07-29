@@ -1,9 +1,9 @@
-import project1 from "../../assets/project1.jpg";
-import project2 from "../../assets/project2.jpg";
-import project3 from "../../assets/project3.jpg";
-import project4 from "../../assets/project4.jpg";
-import project5 from "../../assets/project5.jpg";
-import project6 from "../../assets/project6.jpg";
+import project1 from "../assets/img/project1.jpg";
+import project2 from "../assets/img/project2.jpg";
+import project3 from "../assets/img/project3.jpg";
+import project4 from "../assets/img/project4.jpg";
+import project5 from "../assets/img/project5.jpg";
+import project6 from "../assets/img/project6.jpg";
 
 const Projects = () => {
     return (

@@ -1,4 +1,4 @@
-import Snake from "../Snake.jsx";
+import Snake from "../components/Snake.jsx";
 
 const Header = () => {
     return (

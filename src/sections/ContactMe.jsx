@@ -1,7 +1,7 @@
-import terminalVector40 from "../../assets/terminalVector40.svg";
-import personalVector from "../../assets/personalVector.svg";
-import hobbiesVector40 from "../../assets/hobbiesVector40.svg";
-import contactMeCodeSnippet from "../../assets/contactMeCodeSnippet.svg";
+import terminalVector40 from "../assets/vector/terminalVector40.svg";
+import personalVector from "../assets/vector/personalVector.svg";
+import hobbiesVector40 from "../assets/vector/hobbiesVector40.svg";
+import contactMeCodeSnippet from "../assets/codeSnippet/contactMeCodeSnippet.svg";
 
 const ContaceMe = () => {
     return (

@@ -1,10 +1,10 @@
-import terminalVector from "../../assets/terminalVector.svg";
-import personalVector40 from "../../assets/personalVector40.svg";
-import hobbiesVector40 from "../../assets/hobbiesVector40.svg";
-import profile1 from "../../assets/profile1.svg";
-import profile2 from "../../assets/profile2.svg";
-import codeSnippet1 from "../../assets/codeSnippet1.svg";
-import codeSnippet2 from "../../assets/codeSnippet2.svg";
+import terminalVector from "../assets/vector/terminalVector.svg";
+import personalVector40 from "../assets/vector/personalVector40.svg";
+import hobbiesVector40 from "../assets/vector/hobbiesVector40.svg";
+import profile1 from "../assets/vector/profile1.svg";
+import profile2 from "../assets/vector/profile2.svg";
+import codeSnippet1 from "../assets/codeSnippet/codeSnippet1.svg";
+import codeSnippet2 from "../assets/codeSnippet/codeSnippet2.svg";
 
 const AboutMe = () => {
     return (
