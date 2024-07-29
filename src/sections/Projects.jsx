@@ -8,7 +8,7 @@ import project6 from "../assets/img/project6.jpg";
 const Projects = () => {
     return (
         <section className="border-b border-borderColor bg-customizedBg py-24">
-            <div className="max-container text-center text-slate-100">
+            <div className="max-container text-center font-firaCode text-slate-100">
                 <div>
                     <h1 className="text-5xl font-medium">#projects</h1>
                     <hr className="mx-auto mt-4 h-[3px] w-[152px] border-0 bg-customizedBtnBg" />

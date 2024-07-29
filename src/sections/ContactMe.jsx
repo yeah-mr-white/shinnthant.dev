@@ -6,7 +6,7 @@ import contactMeCodeSnippet from "../assets/codeSnippet/contactMeCodeSnippet.svg
 const ContaceMe = () => {
     return (
         <section className="bg-customizedBg py-24">
-            <div className="max-container text-center text-slate-100">
+            <div className="max-container text-center font-firaCode text-slate-100">
                 <div>
                     <h1 className="text-5xl font-medium">#contact-me</h1>
                     <hr className="mx-auto mt-4 h-[3px] w-[152px] border-0 bg-customizedBtnBg" />

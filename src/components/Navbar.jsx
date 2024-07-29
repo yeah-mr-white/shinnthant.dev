@@ -1,13 +1,16 @@
 const Navbar = () => {
     return (
-        <header className="absolute left-0 top-0 z-10 mx-auto w-full">
-            <nav className="max-container mt-8 flex justify-between font-firaCode text-slate-100">
+        <nav className="shadow-borderColor-100/25 fixed left-0 top-0 z-10 w-full border-b border-borderColor/10 bg-customizedBg/50 py-4 shadow-lg backdrop-blur-xl">
+            <div className="max-container mx-auto flex justify-between font-firaCode text-slate-100">
+                {/* start - logo */}
                 <div className="inline-block py-1 align-middle">
                     <a href="#" className="text-2xl font-bold">
                         shinnthant.dev
                     </a>
                 </div>
-                <div className="inline-block py-1.5 align-middle">
+
+                {/* middle - nav links */}
+                <div className="hidden py-1.5 align-middle sm:inline-block">
                     <div className="flex gap-12">
                         <div>#home</div>
                         <div>#projects</div>
@@ -16,13 +19,15 @@ const Navbar = () => {
                         <div>#contact-me</div>
                     </div>
                 </div>
+
+                {/* end -> button */}
                 <div>
-                    <button className="rounded-lg bg-customizedBtnBg px-3.5 py-2.5 text-sm text-slate-950">
+                    <button className="hidden rounded-lg bg-customizedBtnBg px-3.5 py-2.5 text-sm text-slate-950">
                         download-cv
                     </button>
                 </div>
-            </nav>
-        </header>
+            </div>
+        </nav>
     );
 };
 
