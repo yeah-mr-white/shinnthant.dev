@@ -7,15 +7,19 @@ import project6 from "../assets/img/project6.jpg";
 
 const Projects = () => {
     return (
-        <section className="border-b border-borderColor bg-customizedBg py-24">
+        <section className="border-b border-borderColor bg-customizedBg py-16 sm:py-24">
             <div className="max-container text-center font-firaCode text-slate-100">
                 <div>
-                    <h1 className="text-5xl font-medium">#projects</h1>
-                    <hr className="mx-auto mt-4 h-[3px] w-[152px] border-0 bg-customizedBtnBg" />
+                    <h1 className="text-3xl font-medium sm:text-5xl sm:font-medium">
+                        #projects
+                    </h1>
+
+                    {/* horizontal rule under section title */}
+                    <hr className="mx-auto mt-2 h-[2px] w-16 border-0 bg-customizedBtnBg sm:mt-4 sm:h-[3px] sm:w-[152px]" />
                 </div>
-                <div className="mt-16 flex justify-between">
+                <div className="flex w-full flex-wrap justify-between text-sm text-slate-500 sm:mt-16 sm:text-base">
                     {/* Project1 */}
-                    <div className="flex justify-center gap-16">
+                    <div className="mt-8 w-full px-4 sm:mt-0 sm:w-1/2 lg:w-1/3">
                         <div className="text-start">
                             <p>
                                 <span className="font-semibold text-greenGradient">
@@ -26,23 +30,23 @@ const Projects = () => {
                                     // random-dice-game
                                 </span>
                             </p>
-                            <div className="mt-3 w-[370px] rounded-2xl border border-borderColor bg-cardBg">
+                            <div className="mt-3 rounded-2xl border border-borderColor bg-cardBg">
                                 <img
                                     src={project1}
                                     alt="project1"
                                     className="h-[145px] w-full rounded-t-2xl border-b border-borderColor object-cover"
                                 />
-                                <div className="px-8 py-7">
-                                    <p className="text-base text-slate-500">
+                                <div className="p-4 sm:px-8 sm:py-7">
+                                    <p className="sm:text-base">
                                         Try your luck and see if you can roll a
                                         perfect six!
                                     </p>
-                                    <button className="mr-2 mt-5 rounded-lg bg-customizedBtnBg px-3.5 py-2.5 text-sm text-slate-950">
+                                    <button className="mr-1.5 mt-5 rounded-md bg-customizedBtnBg px-2 py-1.5 text-sm text-slate-950 sm:mr-2 sm:px-3.5 sm:py-2.5">
                                         <a href="https://github.com/yeah-mr-white/fs-pj01-random-dice-game">
                                             source-code
                                         </a>
                                     </button>
-                                    <button className="mt-5 rounded-lg bg-customizedBtnBgGray px-3.5 py-2.5 text-sm">
+                                    <button className="mt-5 rounded-md bg-customizedBtnBgGray px-2 py-1.5 text-sm text-slate-100 sm:px-3.5 sm:py-2.5">
                                         <a href="https://yeah-mr-white.github.io/fs-pj01-random-dice-game/">
                                             view-project
                                         </a>
@@ -53,7 +57,7 @@ const Projects = () => {
                     </div>
 
                     {/* Project 2 */}
-                    <div className="flex justify-center gap-16">
+                    <div className="mt-8 w-full px-4 sm:mt-0 sm:w-1/2 lg:w-1/3">
                         <div className="text-start">
                             <p>
                                 <span className="font-semibold text-greenGradient">
@@ -64,23 +68,23 @@ const Projects = () => {
                                     // drum-kit
                                 </span>
                             </p>
-                            <div className="mt-3 w-[370px] rounded-2xl border border-borderColor bg-cardBg">
+                            <div className="mt-3 rounded-2xl border border-borderColor bg-cardBg">
                                 <img
                                     src={project2}
                                     alt="project2"
                                     className="h-[145px] w-full rounded-t-2xl border-b border-borderColor object-cover"
                                 />
-                                <div className="px-8 py-7">
-                                    <p className="text-base text-slate-500">
+                                <div className="p-4 sm:px-8 sm:py-7">
+                                    <p className="sm:text-base">
                                         Get ready to create your own beats and
                                         rhythms!
                                     </p>
-                                    <button className="mr-2 mt-5 rounded-lg bg-customizedBtnBg px-3.5 py-2.5 text-sm text-slate-950">
+                                    <button className="mr-1.5 mt-5 rounded-md bg-customizedBtnBg px-2 py-1.5 text-sm text-slate-950 sm:mr-2 sm:px-3.5 sm:py-2.5">
                                         <a href="https://github.com/yeah-mr-white/fs-pj02-drum-kit">
                                             source-code
                                         </a>
                                     </button>
-                                    <button className="mt-5 rounded-lg bg-customizedBtnBgGray px-3.5 py-2.5 text-sm">
+                                    <button className="mt-5 rounded-md bg-customizedBtnBgGray px-2 py-1.5 text-sm text-slate-100 sm:px-3.5 sm:py-2.5">
                                         <a href="https://yeah-mr-white.github.io/fs-pj02-drum-kit/">
                                             view-project
                                         </a>
@@ -91,7 +95,7 @@ const Projects = () => {
                     </div>
 
                     {/* Project3 */}
-                    <div className="flex justify-center gap-16">
+                    <div className="mt-8 w-full px-4 sm:mt-0 sm:w-1/2 lg:w-1/3">
                         <div className="text-start">
                             <p>
                                 <span className="font-semibold text-greenGradient">
@@ -102,23 +106,23 @@ const Projects = () => {
                                     // first-calculator
                                 </span>
                             </p>
-                            <div className="mt-3 w-[370px] rounded-2xl border border-borderColor bg-cardBg">
+                            <div className="mt-3 rounded-2xl border border-borderColor bg-cardBg">
                                 <img
                                     src={project3}
                                     alt="project3"
                                     className="h-[145px] w-full rounded-t-2xl border-b border-borderColor object-cover"
                                 />
-                                <div className="px-8 py-7">
-                                    <p className="text-base text-slate-500">
+                                <div className="p-4 sm:px-8 sm:py-7">
+                                    <p className="sm:text-base">
                                         Start solving your math problems with
                                         ease!
                                     </p>
-                                    <button className="mr-2 mt-5 rounded-lg bg-customizedBtnBg px-3.5 py-2.5 text-sm text-slate-950">
+                                    <button className="mr-1.5 mt-5 rounded-md bg-customizedBtnBg px-2 py-1.5 text-sm text-slate-950 sm:mr-2 sm:px-3.5 sm:py-2.5">
                                         <a href="https://github.com/yeah-mr-white/first-calculator">
                                             source-code
                                         </a>
                                     </button>
-                                    <button className="mt-5 rounded-lg bg-customizedBtnBgGray px-3.5 py-2.5 text-sm">
+                                    <button className="mt-5 rounded-md bg-customizedBtnBgGray px-2 py-1.5 text-sm text-slate-100 sm:px-3.5 sm:py-2.5">
                                         <a href="https://yeah-mr-white.github.io/first-calculator/">
                                             view-project
                                         </a>
@@ -129,9 +133,9 @@ const Projects = () => {
                     </div>
                 </div>
 
-                <div className="mt-16 flex justify-between">
+                <div className="flex w-full flex-wrap justify-between text-sm text-slate-500 sm:mt-16 sm:text-base">
                     {/* Project4 */}
-                    <div className="flex justify-center gap-16">
+                    <div className="mt-8 w-full px-4 sm:mt-0 sm:w-1/2 lg:w-1/3">
                         <div className="text-start">
                             <p>
                                 <span className="font-semibold text-greenGradient">
@@ -142,23 +146,23 @@ const Projects = () => {
                                     // practice-portfolio
                                 </span>
                             </p>
-                            <div className="mt-3 w-[370px] rounded-2xl border border-borderColor bg-cardBg">
+                            <div className="mt-3 rounded-2xl border border-borderColor bg-cardBg">
                                 <img
                                     src={project4}
                                     alt="project4"
                                     className="h-[145px] w-full rounded-t-2xl border-b border-borderColor object-cover"
                                 />
-                                <div className="px-8 py-7">
-                                    <p className="text-base text-slate-500">
+                                <div className="p-4 sm:px-8 sm:py-7">
+                                    <p className="sm:text-base">
                                         Showcase projects and skills for a
                                         professional portfolio.
                                     </p>
-                                    <button className="mr-2 mt-5 rounded-lg bg-customizedBtnBg px-3.5 py-2.5 text-sm text-slate-950">
+                                    <button className="mr-1.5 mt-5 rounded-md bg-customizedBtnBg px-2 py-1.5 text-sm text-slate-950 sm:mr-2 sm:px-3.5 sm:py-2.5">
                                         <a href="https://github.com/yeah-mr-white/practice-portfolio">
                                             source-code
                                         </a>
                                     </button>
-                                    <button className="mt-5 rounded-lg bg-customizedBtnBgGray px-3.5 py-2.5 text-sm">
+                                    <button className="mt-5 rounded-md bg-customizedBtnBgGray px-2 py-1.5 text-sm text-slate-100 sm:px-3.5 sm:py-2.5">
                                         <a href="https://yeah-mr-white.github.io/practice-portfolio/">
                                             view-project
                                         </a>
@@ -169,7 +173,7 @@ const Projects = () => {
                     </div>
 
                     {/* Project 5 */}
-                    <div className="flex justify-center gap-16">
+                    <div className="mt-8 w-full px-4 sm:mt-0 sm:w-1/2 lg:w-1/3">
                         <div className="text-start">
                             <p>
                                 <span className="font-semibold text-greenGradient">
@@ -180,23 +184,23 @@ const Projects = () => {
                                     // football-leagues
                                 </span>
                             </p>
-                            <div className="mt-3 w-[370px] rounded-2xl border border-borderColor bg-cardBg">
+                            <div className="mt-3 rounded-2xl border border-borderColor bg-cardBg">
                                 <img
                                     src={project5}
                                     alt="project5"
                                     className="h-[145px] w-full rounded-t-2xl border-b border-borderColor object-cover"
                                 />
-                                <div className="px-8 py-7">
-                                    <p className="text-base text-slate-500">
+                                <div className="p-4 sm:px-8 sm:py-7">
+                                    <p className="sm:text-base">
                                         Explore and track your favorite football
                                         leagues and teams.
                                     </p>
-                                    <button className="mr-2 mt-5 rounded-lg bg-customizedBtnBg px-3.5 py-2.5 text-sm text-slate-950">
+                                    <button className="mr-1.5 mt-5 rounded-md bg-customizedBtnBg px-2 py-1.5 text-sm text-slate-950 sm:mr-2 sm:px-3.5 sm:py-2.5">
                                         <a href="https://github.com/yeah-mr-white/football-leagues">
                                             source-code
                                         </a>
                                     </button>
-                                    <button className="mt-5 rounded-lg bg-customizedBtnBgGray px-3.5 py-2.5 text-sm">
+                                    <button className="mt-5 rounded-md bg-customizedBtnBgGray px-2 py-1.5 text-sm text-slate-100 sm:px-3.5 sm:py-2.5">
                                         <a href="https://yeah-mr-white.github.io/football-leagues/">
                                             view-project
                                         </a>
@@ -207,7 +211,7 @@ const Projects = () => {
                     </div>
 
                     {/* Project6 */}
-                    <div className="flex justify-center gap-16">
+                    <div className="mt-8 w-full px-4 sm:mt-0 sm:w-1/2 lg:w-1/3">
                         <div className="text-start">
                             <p>
                                 <span className="font-semibold text-greenGradient">
@@ -218,23 +222,23 @@ const Projects = () => {
                                     // product-preview-card
                                 </span>
                             </p>
-                            <div className="mt-3 w-[370px] rounded-2xl border border-borderColor bg-cardBg">
+                            <div className="mt-3 rounded-2xl border border-borderColor bg-cardBg">
                                 <img
                                     src={project6}
                                     alt="project1"
                                     className="h-[145px] w-full rounded-t-2xl border-b border-borderColor object-cover"
                                 />
-                                <div className="px-8 py-7">
-                                    <p className="text-base text-slate-500">
+                                <div className="p-4 sm:px-8 sm:py-7">
+                                    <p className="sm:text-base">
                                         Discover and explore the features of our
                                         product.
                                     </p>
-                                    <button className="mr-2 mt-5 rounded-lg bg-customizedBtnBg px-3.5 py-2.5 text-sm text-slate-950">
+                                    <button className="mr-1.5 mt-5 rounded-md bg-customizedBtnBg px-2 py-1.5 text-sm text-slate-950 sm:mr-2 sm:px-3.5 sm:py-2.5">
                                         <a href="https://github.com/yeah-mr-white/product-preview-card-component">
                                             source-code
                                         </a>
                                     </button>
-                                    <button className="mt-5 rounded-lg bg-customizedBtnBgGray px-3.5 py-2.5 text-sm">
+                                    <button className="mt-5 rounded-md bg-customizedBtnBgGray px-2 py-1.5 text-sm text-slate-100 sm:px-3.5 sm:py-2.5">
                                         <a href="https://yeah-mr-white.github.io/product-preview-card-component/">
                                             view-project
                                         </a>

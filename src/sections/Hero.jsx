@@ -15,12 +15,12 @@ const Header = () => {
                         <div className="left animation-delay-2000 absolute left-48 h-48 w-48 animate-blob rounded-full bg-blueGradient opacity-25 blur-3xl filter"></div>
                     </div>
 
-                    <div className="text-lg">
-                        <p>hello friend! i am</p>
-                        <h1 className="py-2 text-6xl font-medium">
+                    <div>
+                        <p className="text-sm sm:text-lg">hello friend! i am</p>
+                        <h1 className="py-2 text-4xl font-semibold sm:text-6xl sm:font-medium">
                             shinn-thant
                         </h1>
-                        <p className="text-3xl font-semibold">
+                        <p className="text-lg font-semibold sm:text-3xl">
                             <span className="bg-gradient-to-r from-blueGradient via-greenGradient to-orangeGradient bg-clip-text text-transparent">
                                 &gt;_full-stack developer
                             </span>
@@ -29,25 +29,50 @@ const Header = () => {
                     <br />
                     <br />
                     <div className="mt-6 text-slate-500">
-                        <p className="hidden sm:block">
+                        <p className="hidden text-lg sm:block">
                             // complete the game to continue
                         </p>
                         <div className="text-sm sm:text-lg">
-                            <p className="sm:my-1">
-                                // you can also see it on my GitHub page
+                            <p className="sm:my-2">
+                                // find my profile on GitHub
                             </p>
-                            <p className="mt-2 sm:mt-0">
-                                <span className="text-blueGradient">const</span>
-                                <span className="text-slate-300">
-                                    {" "}
-                                    gitHubLink ={" "}
-                                </span>
-                                <a href="https://github.com/yeah-mr-white">
-                                    <span className="text-orangeGradient">
-                                        “https://github.com/yeah-mr-white”
+
+                            {/* GitHub text for mobile view */}
+                            <div className="w-full whitespace-nowrap sm:hidden">
+                                <p className="mt-3 sm:mt-0">
+                                    <span className="text-blueGradient">
+                                        const
                                     </span>
-                                </a>
-                            </p>
+                                    <span className="text-slate-300">
+                                        {" "}
+                                        gitHub ={" "}
+                                    </span>
+                                    <a href="https://github.com/yeah-mr-white">
+                                        <span className="text-orangeGradient">
+                                            “https://<br></br>
+                                            github.com/yeah-mr-white”;
+                                        </span>
+                                    </a>
+                                </p>
+                            </div>
+
+                            {/* GitHub text for laptop view */}
+                            <div className="hidden w-full sm:block">
+                                <p className="mt-3 sm:mt-0">
+                                    <span className="text-blueGradient">
+                                        const
+                                    </span>
+                                    <span className="text-slate-300">
+                                        {" "}
+                                        gitHub ={" "}
+                                    </span>
+                                    <a href="https://github.com/yeah-mr-white">
+                                        <span className="text-orangeGradient">
+                                            “https://github.com/yeah-mr-white”;
+                                        </span>
+                                    </a>
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
