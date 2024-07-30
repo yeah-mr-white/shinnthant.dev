@@ -11,6 +11,10 @@
     scroll-behavior: smooth;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 @layer components {
     .max-container {
         max-width: 1240px;

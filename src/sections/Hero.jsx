@@ -62,7 +62,7 @@ const Header = () => {
                         <div className="left animation-delay-2000 absolute -right-16 bottom-60 h-64 w-64 animate-blob rounded-full bg-blueGradient opacity-25 blur-3xl filter"></div>
 
                         {/* Code snippets */}
-                        <div className="flex h-[835px] flex-col justify-center gap-4 overflow-hidden">
+                        <div className="flex h-screen flex-col justify-center gap-4 overflow-hidden">
                             <img
                                 src={heroSnippet10}
                                 alt=""
