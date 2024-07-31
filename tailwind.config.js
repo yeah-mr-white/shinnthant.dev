@@ -22,6 +22,8 @@ export default {
                 borderColor: "#1E2D3D",
                 cardBg: "#011221",
                 snakeBoardBg: "rgba(1, 22, 39, 0.84)",
+                codeRed: "#E99287",
+                codePink: "#C98BDF",
             },
             animation: {
                 blob: "blob 7s infinite",

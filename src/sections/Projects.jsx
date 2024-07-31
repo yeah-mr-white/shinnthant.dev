@@ -7,20 +7,20 @@ import project6 from "../assets/img/project6.jpg";
 
 const Projects = () => {
     return (
-        <section className="border-b border-borderColor bg-customizedBg py-16 sm:py-24">
+        <section className="border-b border-borderColor bg-customizedBg py-16 md:py-24">
             <div className="max-container text-center font-firaCode text-slate-100">
-                <div>
-                    <h1 className="text-3xl font-medium sm:text-5xl sm:font-medium">
+                <div className="px-4 md:px-8">
+                    <h1 className="text-3xl font-medium md:text-5xl md:font-medium">
                         #projects
                     </h1>
 
                     {/* horizontal rule under section title */}
                     <hr className="mx-auto mt-2 h-[2px] w-16 border-0 bg-customizedBtnBg sm:mt-4 sm:h-[3px] sm:w-[152px]" />
                 </div>
-                <div className="flex w-full flex-wrap justify-between text-sm text-slate-500 sm:mt-16 sm:text-base">
+                <div className="flex w-full flex-wrap justify-between px-4 text-base text-slate-500 sm:text-base md:px-8">
                     {/* Project1 */}
-                    <div className="mt-8 w-full px-4 sm:mt-0 sm:w-1/2 lg:w-1/3">
-                        <div className="text-start">
+                    <div className="mt-12 w-full md:w-1/2 lg:mt-16 lg:w-1/3">
+                        <div className="text-start md:px-4">
                             <p>
                                 <span className="font-semibold text-greenGradient">
                                     #project-1
@@ -36,7 +36,7 @@ const Projects = () => {
                                     alt="project1"
                                     className="h-[145px] w-full rounded-t-2xl border-b border-borderColor object-cover"
                                 />
-                                <div className="p-4 sm:px-8 sm:py-7">
+                                <div className="p-4 md:p-6">
                                     <p className="sm:text-base">
                                         Try your luck and see if you can roll a
                                         perfect six!
@@ -57,8 +57,8 @@ const Projects = () => {
                     </div>
 
                     {/* Project 2 */}
-                    <div className="mt-8 w-full px-4 sm:mt-0 sm:w-1/2 lg:w-1/3">
-                        <div className="text-start">
+                    <div className="mt-12 w-full md:w-1/2 lg:mt-16 lg:w-1/3">
+                        <div className="text-start md:px-4">
                             <p>
                                 <span className="font-semibold text-greenGradient">
                                     #project-2
@@ -74,7 +74,7 @@ const Projects = () => {
                                     alt="project2"
                                     className="h-[145px] w-full rounded-t-2xl border-b border-borderColor object-cover"
                                 />
-                                <div className="p-4 sm:px-8 sm:py-7">
+                                <div className="p-4 md:p-6">
                                     <p className="sm:text-base">
                                         Get ready to create your own beats and
                                         rhythms!
@@ -95,8 +95,8 @@ const Projects = () => {
                     </div>
 
                     {/* Project3 */}
-                    <div className="mt-8 w-full px-4 sm:mt-0 sm:w-1/2 lg:w-1/3">
-                        <div className="text-start">
+                    <div className="mt-12 w-full md:w-1/2 lg:mt-16 lg:w-1/3">
+                        <div className="text-start md:px-4">
                             <p>
                                 <span className="font-semibold text-greenGradient">
                                     #project-3
@@ -112,7 +112,7 @@ const Projects = () => {
                                     alt="project3"
                                     className="h-[145px] w-full rounded-t-2xl border-b border-borderColor object-cover"
                                 />
-                                <div className="p-4 sm:px-8 sm:py-7">
+                                <div className="p-4 md:p-6">
                                     <p className="sm:text-base">
                                         Start solving your math problems with
                                         ease!
@@ -131,12 +131,10 @@ const Projects = () => {
                             </div>
                         </div>
                     </div>
-                </div>
 
-                <div className="flex w-full flex-wrap justify-between text-sm text-slate-500 sm:mt-16 sm:text-base">
                     {/* Project4 */}
-                    <div className="mt-8 w-full px-4 sm:mt-0 sm:w-1/2 lg:w-1/3">
-                        <div className="text-start">
+                    <div className="mt-12 w-full md:w-1/2 lg:mt-16 lg:w-1/3">
+                        <div className="text-start md:px-4">
                             <p>
                                 <span className="font-semibold text-greenGradient">
                                     #project-4
@@ -152,10 +150,10 @@ const Projects = () => {
                                     alt="project4"
                                     className="h-[145px] w-full rounded-t-2xl border-b border-borderColor object-cover"
                                 />
-                                <div className="p-4 sm:px-8 sm:py-7">
+                                <div className="p-4 md:p-6">
                                     <p className="sm:text-base">
                                         Showcase projects and skills for a
-                                        professional portfolio.
+                                        portfolio.
                                     </p>
                                     <button className="mr-1.5 mt-5 rounded-md bg-customizedBtnBg px-2 py-1.5 text-sm text-slate-950 sm:mr-2 sm:px-3.5 sm:py-2.5">
                                         <a href="https://github.com/yeah-mr-white/practice-portfolio">
@@ -173,8 +171,8 @@ const Projects = () => {
                     </div>
 
                     {/* Project 5 */}
-                    <div className="mt-8 w-full px-4 sm:mt-0 sm:w-1/2 lg:w-1/3">
-                        <div className="text-start">
+                    <div className="mt-12 w-full md:w-1/2 lg:mt-16 lg:w-1/3">
+                        <div className="text-start md:px-4">
                             <p>
                                 <span className="font-semibold text-greenGradient">
                                     #project-5
@@ -190,10 +188,10 @@ const Projects = () => {
                                     alt="project5"
                                     className="h-[145px] w-full rounded-t-2xl border-b border-borderColor object-cover"
                                 />
-                                <div className="p-4 sm:px-8 sm:py-7">
+                                <div className="p-4 md:p-6">
                                     <p className="sm:text-base">
-                                        Explore and track your favorite football
-                                        leagues and teams.
+                                        Explore and track your football leagues
+                                        and teams.
                                     </p>
                                     <button className="mr-1.5 mt-5 rounded-md bg-customizedBtnBg px-2 py-1.5 text-sm text-slate-950 sm:mr-2 sm:px-3.5 sm:py-2.5">
                                         <a href="https://github.com/yeah-mr-white/football-leagues">
@@ -211,15 +209,15 @@ const Projects = () => {
                     </div>
 
                     {/* Project6 */}
-                    <div className="mt-8 w-full px-4 sm:mt-0 sm:w-1/2 lg:w-1/3">
-                        <div className="text-start">
+                    <div className="mt-12 w-full md:w-1/2 lg:mt-16 lg:w-1/3">
+                        <div className="text-start md:px-4">
                             <p>
                                 <span className="font-semibold text-greenGradient">
                                     #project-6
                                 </span>
                                 &nbsp;
                                 <span className="font-medium text-slate-500">
-                                    // product-preview-card
+                                    // preview-card
                                 </span>
                             </p>
                             <div className="mt-3 rounded-2xl border border-borderColor bg-cardBg">
@@ -228,7 +226,7 @@ const Projects = () => {
                                     alt="project1"
                                     className="h-[145px] w-full rounded-t-2xl border-b border-borderColor object-cover"
                                 />
-                                <div className="p-4 sm:px-8 sm:py-7">
+                                <div className="p-4 md:p-6">
                                     <p className="sm:text-base">
                                         Discover and explore the features of our
                                         product.

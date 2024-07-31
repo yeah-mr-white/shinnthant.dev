@@ -5,22 +5,24 @@ import heroSnippet100 from "../assets/codeSnippet/heroSnippet100.svg";
 const Header = () => {
     return (
         <header className="relative border-b border-borderColor bg-customizedBg font-firaCode">
-            <div className="sm:max-container flex min-h-screen items-center justify-between">
+            <div className="max-container flex min-h-screen items-center justify-between md:px-8">
                 {/* left hero */}
-                <div className="w-full px-10 font-medium text-slate-100 sm:w-1/2 sm:p-0">
+                <div className="w-full px-8 font-medium text-slate-100 md:w-1/2 md:p-0">
                     {/* background blur animation for mobile */}
-                    <div className="relative sm:hidden">
+                    <div className="relative md:hidden">
                         <div className="left animation-delay-4000 absolute -left-10 -top-10 h-64 w-64 animate-blob rounded-full bg-greenGradient opacity-25 blur-3xl filter"></div>
                         <div className="left animation-delay-2000 absolute left-20 top-32 h-48 w-48 animate-blob rounded-full bg-blueGradient opacity-25 blur-3xl filter"></div>
                         <div className="left animation-delay-2000 absolute left-48 h-48 w-48 animate-blob rounded-full bg-blueGradient opacity-25 blur-3xl filter"></div>
                     </div>
 
                     <div>
-                        <p className="text-sm sm:text-lg">hello friend! i am</p>
-                        <h1 className="py-2 text-4xl font-semibold sm:text-6xl sm:font-medium">
+                        <p className="text-base md:text-base lg:text-lg">
+                            hello friend! i am
+                        </p>
+                        <h1 className="py-2 text-5xl font-semibold lg:text-6xl">
                             shinn-thant
                         </h1>
-                        <p className="text-lg font-semibold sm:text-3xl">
+                        <p className="text-2xl font-semibold lg:text-3xl">
                             <span className="bg-gradient-to-r from-blueGradient via-greenGradient to-orangeGradient bg-clip-text text-transparent">
                                 &gt;_full-stack developer
                             </span>
@@ -29,21 +31,21 @@ const Header = () => {
                     <br />
                     <br />
                     <div className="mt-6 text-slate-500">
-                        <p className="hidden text-lg sm:block">
+                        <p className="hidden text-lg lg:block">
                             // complete the game to continue
                         </p>
-                        <div className="text-sm sm:text-lg">
-                            <p className="sm:my-2">
+                        <div className="text-base lg:text-lg">
+                            <p className="lg:my-2">
                                 // find my profile on GitHub
                             </p>
 
                             {/* GitHub text for mobile view */}
-                            <div className="w-full whitespace-nowrap sm:hidden">
-                                <p className="mt-3 sm:mt-0">
+                            <div className="w-full md:hidden">
+                                <p className="mt-3 md:mt-0">
                                     <span className="text-blueGradient">
                                         const
                                     </span>
-                                    <span className="text-slate-300">
+                                    <span className="text-slate-100">
                                         {" "}
                                         gitHub ={" "}
                                     </span>
@@ -56,13 +58,13 @@ const Header = () => {
                                 </p>
                             </div>
 
-                            {/* GitHub text for laptop view */}
-                            <div className="hidden w-full sm:block">
-                                <p className="mt-3 sm:mt-0">
+                            {/* GitHub text for tablet & laptop view */}
+                            <div className="hidden w-full md:block">
+                                <p className="mt-3 lg:mt-0">
                                     <span className="text-blueGradient">
                                         const
                                     </span>
-                                    <span className="text-slate-300">
+                                    <span className="text-slate-100">
                                         {" "}
                                         gitHub ={" "}
                                     </span>
@@ -78,9 +80,8 @@ const Header = () => {
                 </div>
 
                 {/* right hero */}
-
-                <div className="hidden sm:block">
-                    <div className="relative flex w-full justify-end">
+                <div className="hidden w-full md:block md:w-1/2 md:px-4 lg:px-0">
+                    <div className="relative flex justify-end">
                         {/* background blur animation for laptop size */}
                         <div className="left animation-delay-4000 absolute -left-12 top-20 h-96 w-96 animate-blob rounded-full bg-greenGradient opacity-25 blur-3xl filter"></div>
                         <div className="left animation-delay-2000 absolute bottom-20 left-20 h-80 w-80 animate-blob rounded-full bg-blueGradient opacity-25 blur-3xl filter"></div>

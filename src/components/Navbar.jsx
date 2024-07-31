@@ -13,20 +13,21 @@ const Navbar = () => {
     };
 
     return (
-        <nav className="shadow-borderColor-100/25 fixed left-0 top-0 z-10 w-full border-b border-borderColor/10 bg-customizedBg/50 p-4 shadow-lg backdrop-blur-xl sm:px-0">
+        <nav className="shadow-borderColor-100/25 fixed left-0 top-0 z-10 w-full border-b border-borderColor/10 bg-customizedBg/50 p-4 shadow-lg backdrop-blur-xl lg:px-0">
             <div className="max-container mx-auto flex justify-between font-firaCode text-slate-100">
                 {/* start - logo */}
                 <div className="flex py-1 align-middle">
                     <img src={logo} alt="logo" className="mr-2 h-8 w-8" />
                     <a
                         href="#"
-                        className="hidden text-lg font-bold text-greenGradient sm:text-2xl lg:block"
+                        className="hidden text-lg font-bold text-greenGradient sm:block sm:text-2xl"
                     >
                         shinnthant.dev
                     </a>
                 </div>
+
                 {/* middle - nav links */}
-                <div className="hidden py-1.5 align-middle sm:inline-block">
+                <div className="hidden py-1.5 align-middle lg:inline-block">
                     <div className="flex gap-12">
                         <div>#home</div>
                         <div>#projects</div>
@@ -35,8 +36,9 @@ const Navbar = () => {
                         <div>#contact-me</div>
                     </div>
                 </div>
+
                 {/* end -> button */}
-                <div className="flex items-center justify-center sm:hidden">
+                <div className="flex items-center justify-center lg:hidden">
                     <button onClick={toggleDropdown} className="w-6">
                         {/* magic code 2 */}
                         <img
@@ -52,7 +54,7 @@ const Navbar = () => {
                 {/* dropdown menu for mobile */}
                 {/* magic code 3 */}
                 {isDropdownOpen && (
-                    <div className="absolute left-0 top-full w-full sm:hidden">
+                    <div className="absolute left-0 top-full w-full lg:hidden">
                         <div className="flex flex-wrap">
                             <a
                                 href="#"
