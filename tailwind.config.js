@@ -11,6 +11,7 @@ export default {
         extend: {
             fontFamily: {
                 firaCode: ["Fira Code", "monospace"],
+                cascadia: ["Cascadia Code", "monospace"],
             },
             colors: {
                 customizedBg: "#011627",

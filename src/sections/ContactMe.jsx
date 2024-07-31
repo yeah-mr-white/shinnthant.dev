@@ -1,17 +1,99 @@
 import terminalVector40 from "../assets/vector/terminalVector40.svg";
 import personalVector from "../assets/vector/personalVector.svg";
 import hobbiesVector40 from "../assets/vector/hobbiesVector40.svg";
-import contactMeCodeSnippet from "../assets/codeSnippet/contactMeCodeSnippet.svg";
+import ContactMeCodeSnippet from "../components/ContactMeCodeSnippet.jsx";
 
 const ContaceMe = () => {
     return (
-        <section className="bg-customizedBg py-24">
+        <section className="bg-customizedBg py-16 md:py-24">
             <div className="max-container text-center font-firaCode text-slate-100">
-                <div>
-                    <h1 className="text-5xl font-medium">#contact-me</h1>
-                    <hr className="mx-auto mt-4 h-[3px] w-[152px] border-0 bg-customizedBtnBg" />
+                <div className="px-4 md:px-8">
+                    <h1 className="text-3xl font-medium md:text-5xl md:font-medium">
+                        #contact-me
+                    </h1>
+                    {/* horizontal rule under section title */}
+                    <hr className="mx-auto mt-2 h-[2px] w-16 border-0 bg-customizedBtnBg sm:mt-4 sm:h-[3px] sm:w-[152px]" />
                 </div>
-                <div className="w-max-container mt-16 rounded-lg border border-borderColor text-slate-500">
+
+                {/* contact me for mobile & tablet view */}
+                <div className="mt-12 lg:hidden">
+                    <form className="flex items-center justify-center border-r border-borderColor text-slate-500">
+                        <div className="min-w-80 text-start">
+                            {/* Name */}
+                            <div className="">
+                                <label
+                                    forHTML="username"
+                                    className="block leading-6"
+                                >
+                                    _name:
+                                </label>
+                                <div className="mt-2">
+                                    <input
+                                        type="text"
+                                        name="username"
+                                        id="username"
+                                        autocomplete="username"
+                                        className="block w-full rounded-lg border border-borderColor bg-cardBg placeholder:text-slate-700"
+                                        placeholder="john-doe"
+                                        required
+                                    />
+                                </div>
+                            </div>
+
+                            {/* Email */}
+                            <div className="mt-6">
+                                <label
+                                    forHTML="email"
+                                    className="block leading-6"
+                                >
+                                    _email:
+                                </label>
+                                <div className="mt-2">
+                                    <input
+                                        type="email"
+                                        name="email"
+                                        id="email"
+                                        autocomplete="email"
+                                        className="block w-full rounded-lg border border-borderColor bg-cardBg placeholder:text-slate-700"
+                                        placeholder="john-doe@email.com"
+                                        required
+                                    />
+                                </div>
+                            </div>
+
+                            {/* Message */}
+                            <div className="mt-6">
+                                <label
+                                    forHTML="about"
+                                    className="block leading-6"
+                                >
+                                    _message:
+                                </label>
+                                <div className="mt-2">
+                                    <div>
+                                        <textarea
+                                            name="about"
+                                            id="about"
+                                            rows={3}
+                                            className="block w-full rounded-lg border border-borderColor bg-cardBg placeholder:text-slate-700"
+                                            placeholder="Leave your message here"
+                                        ></textarea>
+                                    </div>
+                                </div>
+                            </div>
+
+                            {/* Button */}
+                            <div className="mt-6">
+                                <button className="rounded-lg bg-customizedBtnBgGray px-3.5 py-2.5 text-sm text-slate-100">
+                                    <a href="#">submit-message</a>
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+                {/* contact me for laptop view */}
+                <div className="w-max-container mt-16 hidden rounded-lg border border-borderColor text-slate-500 lg:block">
                     {/* First Table Row Empty Content */}
                     <div className="h-10 w-full border-b border-borderColor"></div>
 
@@ -118,11 +200,7 @@ const ContaceMe = () => {
 
                         {/* Third Column */}
                         <div className="ml-7 flex items-center">
-                            <img
-                                src={contactMeCodeSnippet}
-                                alt="JavaScript code snippet"
-                                className="rounded-2xl border border-borderColor bg-cardBg p-4"
-                            />
+                            <ContactMeCodeSnippet />
                         </div>
                     </div>
                 </div>

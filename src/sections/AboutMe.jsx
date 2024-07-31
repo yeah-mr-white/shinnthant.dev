@@ -3,8 +3,8 @@ import personalVector40 from "../assets/vector/personalVector40.svg";
 import hobbiesVector40 from "../assets/vector/hobbiesVector40.svg";
 import profile1 from "../assets/vector/profile1.svg";
 import profile2 from "../assets/vector/profile2.svg";
-import CodeSnippet1 from "../components/CodeSnippet1.jsx";
-import CodeSnippet2 from "../components/CodeSnippet2.jsx";
+import AboutMeCodeSnippet1 from "../components/AboutMeCodeSnippet1.jsx";
+import AboutMeCodeSnippet2 from "../components/AboutMeCodeSnippet2.jsx";
 
 const AboutMe = () => {
     return (
@@ -64,38 +64,38 @@ const AboutMe = () => {
                                         <span className="mx-3 font-semibold text-greenGradient">
                                             @d010resHaze
                                         </span>
-                                        <span className="text-slate-500">
+                                        <span className="text-sm text-slate-500">
                                             created 10min ago
                                         </span>
                                     </div>
                                 </div>
 
                                 <div className="mt-4">
-                                    <CodeSnippet1 />
+                                    <AboutMeCodeSnippet1 />
                                 </div>
                             </div>
 
                             {/* code snippet 2 - mobile */}
-                            <div class="mt-8">
+                            <div class="mt-12">
                                 <div className="flex">
                                     <img
                                         className="h-9 w-9 rounded-full p-1 ring-2 ring-slate-500"
-                                        src={profile1}
+                                        src={profile2}
                                         alt="Profile avatar"
                                     />
 
                                     <div>
                                         <span className="mx-3 font-semibold text-greenGradient">
-                                            @d010resHaze
+                                            @ell10tEld3rs0n
                                         </span>
-                                        <span className="text-slate-500">
+                                        <span className="text-sm text-slate-500">
                                             created 10min ago
                                         </span>
                                     </div>
                                 </div>
 
                                 <div className="mt-4">
-                                    <CodeSnippet2 />
+                                    <AboutMeCodeSnippet2 />
                                 </div>
                             </div>
                         </div>
@@ -190,14 +190,14 @@ const AboutMe = () => {
                                             <span className="mx-3 font-semibold text-greenGradient">
                                                 @d010resHaze
                                             </span>
-                                            <span className="text-slate-500">
+                                            <span className="text-sm text-slate-500">
                                                 created 10min ago
                                             </span>
                                         </div>
                                     </div>
 
                                     <div className="mt-4">
-                                        <CodeSnippet1 />
+                                        <AboutMeCodeSnippet1 />
                                     </div>
                                 </div>
 
@@ -214,14 +214,14 @@ const AboutMe = () => {
                                             <span className="mx-3 font-semibold text-greenGradient">
                                                 @ell10tEld3rs0n
                                             </span>
-                                            <span className="text-slate-500">
+                                            <span className="text-sm text-slate-500">
                                                 created 30min ago
                                             </span>
                                         </div>
                                     </div>
 
                                     <div className="mt-4">
-                                        <CodeSnippet2 />
+                                        <AboutMeCodeSnippet2 />
                                     </div>
                                 </div>
                             </div>
