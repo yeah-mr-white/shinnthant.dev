@@ -4,15 +4,18 @@ import heroSnippet100 from "../assets/codeSnippet/heroSnippet100.svg";
 
 const Header = () => {
     return (
-        <header className="relative border-b border-borderColor bg-customizedBg font-firaCode">
-            <div className="max-container flex min-h-screen items-center justify-between md:px-8">
+        <header
+            id="home"
+            className="relative border-b border-borderColor bg-customizedBg font-firaCode"
+        >
+            <div className="max-container flex min-h-screen items-center justify-between text-center md:px-8 md:text-start">
                 {/* left hero */}
                 <div className="w-full px-8 font-medium text-slate-100 md:w-1/2 md:p-0">
                     {/* background blur animation for mobile */}
                     <div className="relative md:hidden">
-                        <div className="left animation-delay-4000 absolute -left-10 -top-10 h-64 w-64 animate-blob rounded-full bg-greenGradient opacity-25 blur-3xl filter"></div>
-                        <div className="left animation-delay-2000 absolute left-20 top-32 h-48 w-48 animate-blob rounded-full bg-blueGradient opacity-25 blur-3xl filter"></div>
-                        <div className="left animation-delay-2000 absolute left-48 h-48 w-48 animate-blob rounded-full bg-blueGradient opacity-25 blur-3xl filter"></div>
+                        <div className="left animation-delay-4000 absolute -top-10 left-10 h-72 w-72 animate-blob rounded-full bg-greenGradient opacity-40 blur-3xl filter"></div>
+                        <div className="left animation-delay-2000 absolute left-60 top-32 h-48 w-48 animate-blob rounded-full bg-blueGradient opacity-40 blur-3xl filter"></div>
+                        <div className="left animation-delay-2000 opacity absolute left-80 h-48 w-48 animate-blob rounded-full bg-blueGradient opacity-40 blur-3xl filter"></div>
                     </div>
 
                     <div>

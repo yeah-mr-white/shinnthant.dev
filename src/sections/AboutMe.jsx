@@ -8,7 +8,10 @@ import AboutMeCodeSnippet2 from "../components/AboutMeCodeSnippet2.jsx";
 
 const AboutMe = () => {
     return (
-        <section className="border-b border-borderColor bg-customizedBg py-16 md:py-24">
+        <section
+            id="about-me"
+            className="border-b border-borderColor bg-customizedBg py-16 md:py-24 lg:px-4"
+        >
             <div className="max-container text-center font-firaCode text-slate-100">
                 <div className="px-4 md:px-8">
                     <h1 className="text-3xl font-medium md:text-5xl md:font-medium">

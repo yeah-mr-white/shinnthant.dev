@@ -7,7 +7,10 @@ import project6 from "../assets/img/project6.jpg";
 
 const Projects = () => {
     return (
-        <section className="border-b border-borderColor bg-customizedBg py-16 md:py-24">
+        <section
+            id="projects"
+            className="border-b border-borderColor bg-customizedBg py-16 md:py-24"
+        >
             <div className="max-container text-center font-firaCode text-slate-100">
                 <div className="px-4 md:px-8">
                     <h1 className="text-3xl font-medium md:text-5xl md:font-medium">
@@ -19,7 +22,7 @@ const Projects = () => {
                 </div>
                 <div className="flex w-full flex-wrap justify-between px-4 text-base text-slate-500 sm:text-base md:px-8">
                     {/* Project1 */}
-                    <div className="mt-12 w-full md:w-1/2 lg:mt-16 lg:w-1/3">
+                    <div className="mx-auto mt-12 w-full max-w-96 md:w-1/2 lg:mt-16 lg:w-1/3">
                         <div className="text-start md:px-4">
                             <p>
                                 <span className="font-semibold text-greenGradient">
@@ -57,7 +60,7 @@ const Projects = () => {
                     </div>
 
                     {/* Project 2 */}
-                    <div className="mt-12 w-full md:w-1/2 lg:mt-16 lg:w-1/3">
+                    <div className="mx-auto mt-12 w-full max-w-96 md:w-1/2 lg:mt-16 lg:w-1/3">
                         <div className="text-start md:px-4">
                             <p>
                                 <span className="font-semibold text-greenGradient">
@@ -95,7 +98,7 @@ const Projects = () => {
                     </div>
 
                     {/* Project3 */}
-                    <div className="mt-12 w-full md:w-1/2 lg:mt-16 lg:w-1/3">
+                    <div className="mx-auto mt-12 w-full max-w-96 md:w-1/2 lg:mt-16 lg:w-1/3">
                         <div className="text-start md:px-4">
                             <p>
                                 <span className="font-semibold text-greenGradient">
@@ -133,7 +136,7 @@ const Projects = () => {
                     </div>
 
                     {/* Project4 */}
-                    <div className="mt-12 w-full md:w-1/2 lg:mt-16 lg:w-1/3">
+                    <div className="mx-auto mt-12 w-full max-w-96 md:w-1/2 lg:mt-16 lg:w-1/3">
                         <div className="text-start md:px-4">
                             <p>
                                 <span className="font-semibold text-greenGradient">
@@ -171,7 +174,7 @@ const Projects = () => {
                     </div>
 
                     {/* Project 5 */}
-                    <div className="mt-12 w-full md:w-1/2 lg:mt-16 lg:w-1/3">
+                    <div className="mx-auto mt-12 w-full max-w-96 md:w-1/2 lg:mt-16 lg:w-1/3">
                         <div className="text-start md:px-4">
                             <p>
                                 <span className="font-semibold text-greenGradient">
@@ -209,7 +212,7 @@ const Projects = () => {
                     </div>
 
                     {/* Project6 */}
-                    <div className="mt-12 w-full md:w-1/2 lg:mt-16 lg:w-1/3">
+                    <div className="mx-auto mt-12 w-full max-w-96 md:w-1/2 lg:mt-16 lg:w-1/3">
                         <div className="text-start md:px-4">
                             <p>
                                 <span className="font-semibold text-greenGradient">

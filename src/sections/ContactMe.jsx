@@ -5,7 +5,10 @@ import ContactMeCodeSnippet from "../components/ContactMeCodeSnippet.jsx";
 
 const ContaceMe = () => {
     return (
-        <section className="bg-customizedBg py-16 md:py-24">
+        <section
+            id="contact-me"
+            className="bg-customizedBg py-16 md:py-24 lg:px-4"
+        >
             <div className="max-container text-center font-firaCode text-slate-100">
                 <div className="px-4 md:px-8">
                     <h1 className="text-3xl font-medium md:text-5xl md:font-medium">
@@ -94,13 +97,10 @@ const ContaceMe = () => {
 
                 {/* contact me for laptop view */}
                 <div className="w-max-container mt-16 hidden rounded-lg border border-borderColor text-slate-500 lg:block">
-                    {/* First Table Row Empty Content */}
-                    <div className="h-10 w-full border-b border-borderColor"></div>
-
                     {/* Second Table Row */}
                     <div className="flex">
                         {/* First Column */}
-                        <div className="w-16 border-r border-borderColor">
+                        <div className="min-w-16 border-r border-borderColor">
                             <div className="flex justify-center">
                                 <img
                                     src={terminalVector40}
@@ -123,8 +123,8 @@ const ContaceMe = () => {
                                 />
                             </div>
                         </div>
-                        {/* Second Column */}
-                        <form className="flex h-[567px] w-[546px] items-center justify-center border-r border-borderColor">
+                        {/* Second Column - form */}
+                        <form className="flex h-[567px] w-[546px] items-center justify-center border-r border-borderColor px-8">
                             <div className="w-[372px] text-start">
                                 {/* Name */}
                                 <div className="">

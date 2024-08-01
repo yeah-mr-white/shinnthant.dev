@@ -13,7 +13,7 @@ const Navbar = () => {
     };
 
     return (
-        <nav className="shadow-borderColor-100/25 fixed left-0 top-0 z-10 w-full border-b border-borderColor/10 bg-customizedBg/50 p-4 shadow-lg backdrop-blur-xl lg:px-0">
+        <nav className="shadow-borderColor-100/25 fixed left-0 top-0 z-10 w-full border-b border-borderColor/10 bg-customizedBg/50 p-4 shadow-lg backdrop-blur-xl lg:px-4">
             <div className="max-container mx-auto flex justify-between font-firaCode text-slate-100">
                 {/* start - logo */}
                 <div className="flex py-1 align-middle">
@@ -29,11 +29,18 @@ const Navbar = () => {
                 {/* middle - nav links */}
                 <div className="hidden py-1.5 align-middle lg:inline-block">
                     <div className="flex gap-12">
-                        <div>#home</div>
-                        <div>#projects</div>
-                        <div>#about-me</div>
-                        <div>#skills</div>
-                        <div>#contact-me</div>
+                        <a href="#home">
+                            <div>#home</div>
+                        </a>
+                        <a href="#projects">
+                            <div>#projects</div>
+                        </a>
+                        <a href="#about-me">
+                            <div>#about-me</div>
+                        </a>
+                        <a href="#contact-me">
+                            <div>#contact-me</div>
+                        </a>
                     </div>
                 </div>
 
@@ -57,31 +64,25 @@ const Navbar = () => {
                     <div className="absolute left-0 top-full w-full lg:hidden">
                         <div className="flex flex-wrap">
                             <a
-                                href="#"
+                                href="#home"
                                 className="w-full border-b border-borderColor bg-customizedBg py-4 pl-4"
                             >
                                 #home
                             </a>
                             <a
-                                href="#"
+                                href="#projects"
                                 className="w-full border-b border-borderColor bg-customizedBg py-4 pl-4"
                             >
                                 #projects
                             </a>
                             <a
-                                href="#"
+                                href="#about-me"
                                 className="w-full border-b border-borderColor bg-customizedBg py-4 pl-4"
                             >
                                 #about-me
                             </a>
                             <a
-                                href="#"
-                                className="w-full border-b border-borderColor bg-customizedBg py-4 pl-4"
-                            >
-                                #skills
-                            </a>
-                            <a
-                                href="#"
+                                href="#contact-me"
                                 className="w-full border-b border-borderColor bg-customizedBg py-4 pl-4"
                             >
                                 #contact-me
