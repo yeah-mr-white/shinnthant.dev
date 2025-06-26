@@ -13,7 +13,6 @@
         "preview": "vite preview"
     },
     "dependencies": {
-        "@vercel/speed-insights": "^1.2.0",
         "flowbite": "^2.4.1",
         "flowbite-react": "^0.10.1",
         "npm": "^10.8.1",
